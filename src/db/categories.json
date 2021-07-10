@@ -1,0 +1,34 @@
+[
+	{
+		"name": "Action (set A)",
+	  "countWords": 8
+	},
+	{
+		"name": "Action (set B)",
+	  "countWords": 8
+	},
+	{
+		"name": "Animal (set А)",
+	  "countWords": 8
+	},
+	{
+		"name": "Animal (set B)",
+	  "countWords": 8
+	},
+	{
+		"name": "Clothes",
+	  "countWords": 8
+	},
+	{
+		"name": "Emotions",
+	  "countWords": 8
+	},
+	{
+		"name": "Professions",
+	  "countWords": 8
+	},
+	{
+		"name": "IT",
+	  "countWords": 8
+	}
+]
