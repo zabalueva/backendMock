@@ -1,6 +1,7 @@
 export interface Category {
 	name: string;
 	countWords: number;
+	id: number
 }
 /*
 module.exports = class Category{
