@@ -3,12 +3,16 @@ import cors from 'cors';
 import bodyParser from 'body-parser';
 import categoriesRouter from "./router/categoriesRouter";
 import path from 'path';
+import swaggerUi from 'swagger-ui-express';
+import swaggerDocument from '../swagger.json';
 
 const app = express();
 const staticFilesPath = path.resolve(__dirname, '../assets');
 
 /* app.use('/', express.static(staticFilesPath)); */
 app.use('/categories', categoriesRouter);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
 
 app.use(bodyParser.json());
 app.use(cors());

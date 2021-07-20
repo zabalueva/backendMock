@@ -1,0 +1,44 @@
+{
+	"swagger": "2.0",
+	"info": {
+			"version": "1.0.0",
+			"title": "English For Kids Admin-panel",
+			"description": "English For Kids Admin-panel API",
+			"license": {
+					"name": "MIT",
+					"url": "https://opensource.org/licenses/MIT"
+			}
+	},
+	"host": "dry-everglades-82924.herokuapp.com/",
+	"basePath": "/",
+	"tags": [
+			{
+					"name": "English For Kids Admin-panel",
+					"description": "API"
+			}
+	],
+	"schemes": [
+			"https"
+	],
+	"consumes": [
+			"application/json"
+	],
+	"produces": [
+			"application/json"
+	],
+	"paths": {
+			"/categories": {
+					"get": {
+							"tags": [
+									"Categories"
+							],
+							"summary": "Get categories list",
+							"responses": {
+									"200": {
+											"description": "catrgories found"
+									}
+							}
+					}
+			}
+	}
+}
