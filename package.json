@@ -8,7 +8,7 @@
     "start": "ts-node ./src/app.ts",
     "watch": "nodemon",
     "build": "tsc",
-    "deploy": "git add . && git commit -m Heroku && git push heroku main"
+    "deploy": "git add . && git commit -m Heroku && git push heroku master"
   },
   "author": "",
   "license": "ISC",
