@@ -22,4 +22,4 @@ app.use(function (req, res, next) {
 });
 app.get('/', (req, res) => res.send('Server works'));
 
-app.listen(3000, () => console.log('Server start'));
+app.listen(process.env.PORT || 3000, () => console.log('Server start'));
