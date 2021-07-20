@@ -1,4 +1,9 @@
-import { Card } from "../models/card";
+export interface Card {
+	word: string,
+	translation: string,
+	image: string,
+	audioSrc: string,
+	}
 
 
 export const categories: string[] = [
