@@ -4,7 +4,7 @@ import bodyParser from 'body-parser';
 import categoriesRouter from "./router/categoriesRouter";
 import path from 'path';
 import swaggerUi from 'swagger-ui-express';
-import swaggerDocument from '../swagger.json';
+import swaggerDocument from './swagger.json';
 
 const app = express();
 const staticFilesPath = path.resolve(__dirname, '../assets');
